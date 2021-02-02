@@ -1,0 +1,288 @@
+@font-face {
+    font-family: 'cocogoose', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    src: url("../assets/cocogoose/cocogoose_trial.otf") format ("open-type");
+}
+
+.cocogoose-text {
+    font-family: cocogoose;
+}
+
+.lato-text {
+    font-family: 'Lato', sans-serif;
+}
+
+.bright-text {
+    color: #ec5242;
+}
+
+.dark-text{
+    color: #272a31;
+}
+
+.notso-darktext {
+    color: #d3d3d3;
+}
+
+/*Navbars Section*/
+
+.top-nav {
+    background-color: #272a31;
+}
+
+.top-nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+.bottom-nav {
+    border: 1px solid #d3d3d3;
+}
+
+.top-nav-items a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.bottom-nav-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 5% 15px 5%;
+
+}
+
+.bottom-nav-leftitems a {
+    text-decoration: none;
+    margin: 15px;
+}
+
+.bottom-nav-leftitems button {
+    border: 3px solid #ec5242;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Header Section */
+.sec-header-box {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.sec-header-item1 p {
+    font-size: 25px;
+}
+
+.sec-header-item1 h1 {
+    font-size: 40px;
+}
+
+.sec-header-item2 h2 {
+    font-size: 30px;
+}
+
+/* Main Program Section */
+
+.sec-main-program {
+    border: 1px solid black;
+    background-color: #272a31;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sec-main-program h2 {
+    margin: 60px auto 60px auto;
+    color: white;
+}
+
+.main-program-item {
+    display: flex;
+    flex-direction: row;
+    background-color: #d3d3d3;
+    margin: 15px;
+}
+
+.linkto-program {
+    margin: 60px auto 60px auto;
+}
+
+/* Featured Lecturers Section */
+
+.sec-featured-lecturers {
+    border: 1px solid black;
+}
+
+.sec-featured-lecturers h2 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.featured-lecturers-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.f-l-leftitems img {
+    padding-top: 23px;
+}
+
+.f-l-rightitems {
+    margin-left: 15px;
+}
+
+.f-l-rightitems h3 {
+    border: 1px solid black;
+}
+
+/* Partner Section */
+
+.sec-partner {
+    background-color :#272a31;
+}
+
+.sec-partner h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+.bottomitems-partner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 60px 50px 60px;
+}
+
+/* Company Info Section */
+
+.sec-company-info-box {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 10% 50px 12%;
+
+}
+
+/* Responsive Section */
+
+@media only screen and (max-width: 767px) {
+    .top-nav {
+        display: none;
+    }
+
+    .bottom-nav {
+        display: none;
+    }
+
+    .mp-item-img {
+        padding-top: 30px;
+        padding-left: 10px;
+        width: 15%;
+    }
+    
+    .main-program-item h5 {
+        width: 25%;
+    }
+    
+    .main-program-item p {
+        padding-right: 10px;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .mobile-nav {
+        display: none;
+    }
+
+    .sec-header-box {
+        margin: 100px auto 100px 60px;
+    }
+
+    .sec-header-item1 p {
+        font-size: 30px;
+    }
+    
+    .sec-header-item1 h1 {
+        font-size: 60px;
+    }
+    
+    .sec-header-item2 h2 {
+        font-size: 30px;
+    }
+    .sec-header-item2 {
+        border: 1px solid black;
+        width: 55%;
+    }
+
+    .main-program-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .main-program-item {
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        width: 15%;
+        margin: 2px;
+    }
+
+    /*.main-program-subbox {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    }*/
+
+    .mp-item-img {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .main-program-item h5,
+    .main-program-item p {
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+   .featured-lecturers-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .featured-lecturers-col1,
+    .featured-lecturers-col2 {
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        margin: 10px;
+    }
+
+    .sec-company-info-box {
+        margin-top: 100px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+    
+    .leftitems-companyinfo {
+        margin-left: 200px;
+    }
+    
+    .rightitems-companyinfo {
+        margin-left: 35px;
+    }
+}
