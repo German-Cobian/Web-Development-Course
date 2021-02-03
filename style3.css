@@ -48,11 +48,11 @@
     margin: 15px;
 }
 
-.bottom-nav {
+.middle-nav {
     border-bottom: 1px solid #d3d3d3;
 }
 
-.bottom-nav-box {
+.middle-nav-box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -60,16 +60,30 @@
 
 }
 
-.bottom-nav-leftitems a {
+.middle-nav-leftitems a {
     text-decoration: none;
     margin: 15px;
 }
 
-.bottom-nav-leftitems button {
+.middle-nav-leftitems button {
     border: 3px solid #ec5242;
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+.bottom-nav {
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+.bottom-nav a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
 
 /* Header Section */
 
@@ -165,6 +179,10 @@ textarea {
 
 @media only screen and (max-width: 767px) {
     .top-nav {
+        display: none;
+    }
+
+    .middle-nav {
         display: none;
     }
 

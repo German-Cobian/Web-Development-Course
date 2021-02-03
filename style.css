@@ -74,7 +74,7 @@
 /* Header Section */
 
 .sec-header-box {
-    margin-top: 100px;
+    margin: 100px auto 100px 20px;
 }
 
 .sec-header-item1 p {
@@ -200,7 +200,7 @@
     }
 
     .sec-header-box {
-        margin: 100px auto 100px 60px;
+        margin: 100px auto 100px 15%;
     }
 
     .sec-header-item1 p {

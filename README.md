@@ -35,4 +35,5 @@ License
 
     This project is MIT licensed. 
     
-    The design of this website folllows closely the layout of the page for CC Global Summit, created by Cindy Shin, CUI & Graphic Designer, form Seoul, Korea.
+
+   
