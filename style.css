@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'cocogoose', sans-serif;
+    font-family: 'cocogoose';
     font-weight: bold;
     font-style: normal;
-    src: url("../assets/cocogoose/cocogoose_trial.otf") format ("open-type");
+    src: url("assets/fonts/cocogoose_trial.otf") format ("open-type");
 }
 
 .cocogoose-text {
@@ -11,6 +11,10 @@
 
 .lato-text {
     font-family: 'Lato', sans-serif;
+}
+
+.white-text {
+    color: white;
 }
 
 .bright-text {
@@ -38,14 +42,14 @@
     margin-right: 5%;
 }
 
-.bottom-nav {
-    border: 1px solid #d3d3d3;
-}
-
 .top-nav-items a {
     color: white;
     text-decoration: none;
     margin: 15px;
+}
+
+.bottom-nav {
+    border-bottom: 1px solid #d3d3d3;
 }
 
 .bottom-nav-box {
@@ -68,9 +72,9 @@
 }
 
 /* Header Section */
+
 .sec-header-box {
     margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 .sec-header-item1 p {
@@ -103,7 +107,7 @@
 .main-program-item {
     display: flex;
     flex-direction: row;
-    background-color: #d3d3d3;
+    background-color: #423f3f;
     margin: 15px;
 }
 
@@ -114,12 +118,11 @@
 /* Featured Lecturers Section */
 
 .sec-featured-lecturers {
-    border: 1px solid black;
+    margin: 50px auto 30px auto;
 }
 
 .sec-featured-lecturers h2 {
     text-align: center;
-    padding-top: 30px;
 }
 
 .featured-lecturers-item {
@@ -133,10 +136,6 @@
 
 .f-l-rightitems {
     margin-left: 15px;
-}
-
-.f-l-rightitems h3 {
-    border: 1px solid black;
 }
 
 /* Partner Section */
@@ -161,10 +160,9 @@
 /* Company Info Section */
 
 .sec-company-info-box {
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
-    margin: 50px 10% 50px 12%;
+    margin: 50px auto 50px 15%;
 
 }
 
@@ -217,7 +215,6 @@
         font-size: 30px;
     }
     .sec-header-item2 {
-        border: 1px solid black;
         width: 55%;
     }
 
@@ -234,12 +231,6 @@
         width: 15%;
         margin: 2px;
     }
-
-    /*.main-program-subbox {
-        display:flex;
-        flex-direction: row;
-        justify-content: center;
-    }*/
 
     .mp-item-img {
         margin-top: 15px;
@@ -263,7 +254,6 @@
 
     .featured-lecturers-col1,
     .featured-lecturers-col2 {
-        border: 1px solid black;
         display: flex;
         flex-direction: column;
         width: 35%;
@@ -279,7 +269,7 @@
     }
     
     .leftitems-companyinfo {
-        margin-left: 200px;
+        margin-left: 10%;
     }
     
     .rightitems-companyinfo {

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style3.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap">
+        <title>DesignWebtech Web Development Course</title>
+    </head>
+    
+    <body>
+
+        <nav class="mobile-nav">
+            <img src="assets/menu.jpg">
+        </nav>
+    
+        <nav class="top-nav">
+
+            <div class= "top-nav-items">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#">Spanish</a>
+            <a href="">My Page</a>
+            <a href="">Logout</a>            
+            </div>
+        </nav> 
+
+        <nav class="bottom-nav">
+
+            <div class="bottom-nav-box">
+                <div>
+                    <a href="#" class="item1"><img src="assets/webtech-logo.png" width="150" alt="Design Webtech logo"></i></a>
+                </div>
+                <div class="bottom-nav-leftitems">
+                    <a href="about.html" class="links-toleft bright-text">About</a>
+                    <a href="#" class="dark-text">Program</a>
+                    <a href="tickets.html" class="dark-text">Tickets</a>
+                    <a href="" class="dark-text">Sponsor</a>
+                    <a href="#" class="dark-text">News</a>
+                    <a href="#"><button class="bright-text">DesignWebtech</button></a>
+                </div>
+            </div>
+        </nav>
+
+
+        <main>
+
+            <h1>Select Tickets</h1>
+        
+            <form action="#">
+
+                <!-- Attendance Checkboxes -->
+
+                <div class="check-attendance">
+
+                    <h3 class="bright-text">Check the Modules You Wish to Attend</h3>
+
+                    <fieldset class="modules-toattend">
+                        <label for="mon"><input type="checkbox" name="attendance">Prework - Monday, April 12</label>
+                        <label for="tues"><input type="checkbox" name="attendance">Module 1 - Tuesday, April 13</label>
+                        <label for="wed"><input type="checkbox" name="attendance">Module 2 - Wednesday, April 14</label>
+                        <label for="thur"><input type="checkbox" name="attendance">Module 3 - Thursday, April 15</label>
+                        <label for="fri"><input type="checkbox" name="attendance">DesignWebtech Kindle - Friday, April 16</label>
+                    </fieldset>
+
+                </div>
+            
+                <!-- Ticket Prices Table -->
+
+                <div class="ticket-price">
+
+                    <h3 class="bright-text">Ticket Price Info</h3>
+
+                    <table class="attendance-days">
+                        <tr>
+                            <th>Ticket</th>
+                            <th>One day</th>
+                            <th>Two days</th> 
+                            <th>Three days</th>
+                            <th>Four days</th>
+                            <th>Five days</th>
+                        </tr>
+                        <tr>
+                            <td>Student</td>
+                            <td class="prices">$60</td>
+                            <td class="prices">$115</td>
+                            <td class="prices">$170</td>
+                            <td class="prices">$225</td>
+                            <td class="prices">$280</td>
+                        </tr>
+                        <tr>
+                            <td>Normal</td>
+                            <td class="prices">$70</td>
+                            <td class="prices">$135</td>
+                            <td class="prices">$200</td>
+                            <td class="prices">$265</td>
+                            <td class="prices">$330</td>
+                        </tr>
+                    </table>
+
+                </div>
+
+                <!-- Number of Days Checkboxes -->
+
+                <div class="check-numbdays">
+
+                    <h3 class="bright-text">Check the Number of Days You Wish to Attend</h3>
+
+                    <fieldset class="numberof-days">
+                        <label for="one"><input type="checkbox" name="days-number">One day</label>
+                        <label for="two"><input type="checkbox" name="days-number">Two days</label>
+                        <label for="three"><input type="checkbox" name="days-number">Three days</label>
+                        <label for="four"><input type="checkbox" name="days-number">Four days</label>
+                        <label for="five"><input type="checkbox" name="days-number">Five days</label>
+                    </fieldset>
+
+                </div>
+
+                <!-- Submit Button -->
+
+                <div class="submit-btn">
+                    <button class="submit">Submit</button>
+                </div>
+
+                <!-- Comments Section -->
+
+                <div class="comments">
+                    <h3 class="bright-text">Comments<h3>
+                    <textarea name="username" placeholder="Type your comment here" required maxlength="1000"></textarea>
+                </div>
+
+            </form>
+        </main>
+    </body>
+</html>
+

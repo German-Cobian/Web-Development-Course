@@ -29,6 +29,11 @@
     color: #d3d3d3;
 }
 
+.margin-text {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 /*Navbars Section*/
 
 .top-nav {
@@ -42,14 +47,14 @@
     margin-right: 5%;
 }
 
-.bottom-nav {
-    border: 1px solid #d3d3d3;
-}
-
 .top-nav-items a {
     color: white;
     text-decoration: none;
     margin: 15px;
+}
+
+.bottom-nav {
+    border-bottom: 1px solid #d3d3d3;
 }
 
 .bottom-nav-box {
@@ -73,13 +78,8 @@
 
 /* Header Section */
 
-header {
-    /*display: flex;
-    flex-direction: column;
-    align-items: center;*/
-}
-
 .header-box {
+    margin: 100px auto 50px auto;
     width: 95%;
     text-align: center;
 }
@@ -87,6 +87,7 @@ header {
 /* Info About Course Section*/
 
 .sec-about-course {
+    margin: 50px auto 50px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,7 +97,6 @@ header {
     border: 1px solid #d3d3d3;
     width: 90%;
     text-align: center;
-    margin-bottom: 25px;
 }
 
 /* Further Questions Section */
@@ -109,34 +109,34 @@ header {
 .further-questions-box {
     width: 70%;
     text-align: center;
-    margin-bottom: 60px;
 }
 
 /* DesignWebtech Logo Section */
 
 .sec-designwebtech-logo {
+    margin: 50px auto 50px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .designwebtech-logo-box {
-    border: 1px solid black;
+    border: 1px solid #d3d3d3;
     text-align: center;
     width: 70%;
-    margin-bottom: 60px;
 }
 
 .logo-holder {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 /* Past Courses Section */
 
 .sec-past-courses {
+    margin: 50px auto 100px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -147,7 +147,7 @@ header {
     text-align: center;
 }
 
-.past-courses {
+.imgs-txt {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,18 +155,22 @@ header {
 
 .img-1 {
     width: 95%;
-    height: 170px;
-    background-image: url("assets/conference1.jpg");
+    height: 250px;
+    background-image: linear-gradient(rgb(228 224 225 / 5%), rgb(8 8 8 / 93%)),
+        url("assets/conference1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 30px;
   }
 
 .img-2 {
     width: 95%;
-    height: 170px;
-    background-image: url("assets/conference2.jpg");
+    height: 250px;
+    background-image: linear-gradient(rgb(228 224 225 / 5%), rgb(8 8 8 / 93%)),
+        url("assets/conference2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+
   }
 
 
@@ -177,9 +181,12 @@ footer {
 }
 
 .sec-company-info-box {
+    height: 180px;
     display: flex;
     flex-direction: column;
-    margin: 50px 10% 0 12%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
 }
 
 .rightitems-companyinfo p {
@@ -209,6 +216,7 @@ footer {
     }
 
 /* Header Section */
+
     .header-box {
         text-align: center;
     }
@@ -228,7 +236,6 @@ footer {
     /* DesignWebtech Logo Section */
 
     .designwebtech-logo-box {
-        border: 1px solid black;
         width: 60%;
     }
 
@@ -255,15 +262,10 @@ footer {
     /* Company Info Section */
 
     .sec-company-info-box {
-        margin-top: 100px;
+        height: 180px;
         display: flex;
         flex-direction: row;
-        justify-content: start;
-    }
-
-    
-    .leftitems-companyinfo {
-        margin-left: 10%;
+        justify-content: center;
     }
 
     .rightitems-companyinfo {
