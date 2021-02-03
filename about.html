@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style2.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,75 +12,123 @@
 
 <body>
 
-    <nav>
-        <div>
-        <a href="#"><i></i></a>
-        <a href="#"><i></i></a>
+    <nav class="mobile-nav">
+        <img src="assets/menu.jpg">
+      </nav>
+  
+      <nav class="top-nav">
+
+        <div class= "top-nav-items">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#" class=""><i class="fab fa-twitter"></i></a>
         <a href="#">Spanish</a>
         <a href="">My Page</a>
         <a href="">Logout</a>            
         </div>
      </nav> 
 
-     <nav>
-         <a href="#"><i></i></a>
-         <a href="#">About</a>
-         <a href="#">Program</a>
-         <a href="#">Jobs</a>
-         <a href="">Sponsor</a>
-         <a href="#">News</a>
-         <button>InfoGeek Courses</button>
+     <nav class="bottom-nav">
+
+         <div class="bottom-nav-box">
+            <div>
+                <a href="#" class="item1"><img src="assets/webtech-logo.png" width="150" alt="Design Webtech logo"></i></a>
+            </div>
+            <div class="bottom-nav-leftitems">
+                <a href="#" class="links-toleft bright-text">About</a>
+                <a href="#" class="dark-text">Program</a>
+                <a href="#" class="dark-text">Jobs</a>
+                <a href="" class="dark-text">Sponsor</a>
+                <a href="#" class="dark-text">News</a>
+                <button class="bright-text">DesignWebtech</button>
+            </div>
+         </div>
      </nav>
 
-     <nav>
-        <a href="#"><i></i></a>
-        <a href="#">About</a>
-        <a href="#">Program</a>
-    </nav>
+     <main>
 
-    <main>
-
+    <!--Header Section-->
+        
         <header>
-            <h1>DesignWebtech Web Development Course 2021</h1>
-            <div>
+            <div class="header-box">
+                <p class="bright-text">Learn Web Development in Mexico City</p>
+                <h1 class="bright-text">DesignWebtech</h1>
+                <h1 class="bright-text">Web Development Course 2021</h1>
+            </div>
+        </header>
+
+    <!--Info About Course Section-->
+
+        <section class="sec-about-course">
+            <div class="about-course-box">
                 <p>The DesignWebtech Web Development Course brings together experts, academics and trend-setters from the global community of web-developers in a different country every year.</p>
                 <p>We welcome all aspiring web-designers to join us and partake of the vast pool of knowledge and expertise so as to further their goal of becoming integrated and to contribute their creativity to this thriving community.</p>
                 <p>Web-development is a thriving field, constantly expanding and whose possibilities are vast.</p>
             </div>
-        </header>
+        </section>
 
-        <div>
-            <p>Please contact us per Email for any further questions about our Web Development Course 2021</p>
-            <a href="#">webdevelopmentcourse@designwebtech.org</a>
-        </div>
-            <h5>DesignWebtech Logo</h5>
-            <p>We would like to acknowledge the contribution of Graphic Creators Inc. to DesignWebtech in having designed the log by which we present ourselves to the world at large.</p>
-            <p>The logo was decided by competition from among the submissions by participants of the many previous generations of DesignWebtech Web Development Courses.</p>
-            <p>We believe its slick lines, its contrast between neutral black and warm orange, and the pattern formed by two interwoven squares with rounded edges with eye-like circles at the center of their intersection neatly symbolizes the mix of technical complexity and artistic sensibility which characterizes web-design.</p>
-            <i></i>
+    <!--Further Questions Section-->
+
+        <section class="sec-further-questions">
+            <div class="further-questions-box">
+                <p>Please contact us per Email for any further questions about our Web Development Course 2021</p>
+                <a href="#">webdevelopmentcourse@designwebtech.org</a>
+            </div>
+        </section>
+
+    <!--DesignWebtech Logo Section-->
+        
+        <section class="sec-designwebtech-logo">
+            <div class="designwebtech-logo-box">
+                <h2>DesignWebtech Logo</h2>
+                <p>We would like to acknowledge the contribution of Graphic Creators Inc. to DesignWebtech in having designed the log by which we present ourselves to the world at large.</p>
+                <p>The logo was decided by competition from among the submissions by participants of the many previous generations of DesignWebtech Web Development Courses.</p>
+                <p>We believe its slick lines, its contrast between neutral black and warm orange, and the pattern formed by two interwoven squares with rounded edges with eye-like circles at the center of their intersection neatly symbolizes the mix of technical complexity and artistic sensibility which characterizes web-design.</p>
+                <i></i>
+            </div>
+        </section>
+
+        <div class="logo-holder">
+            <img src="assets/webtech-logo.png" width="350" alt="Design Webtech logo"/>
         </div>
 
-        <div>
-            <h5>See past DesignWebtech Web Development Courses</h5>
-            <p>Take a look at the last two DesignWebtech Web Development Courses which took place in Sao Paulo and in Santiago de Chile.</p>
-            <div>
-                <h5>2019</h5>
-                <p>DesignWebtech Web Development Course in Sao Paulo</p>
+    <!--Past Web Design Courses Section-->
+
+        <section class="sec-past-courses">
+
+            <div class="past-courses-box">
+                <h5>See past DesignWebtech Web Development Courses</h5>
+                <p>Take a look at the last two DesignWebtech Web Development Courses which took place in Sao Paulo and in Santiago de Chile.</p>
+                
+                <div class="pc-imgs">
+                    <div class="img-1">
+                        <h2 class="white-text">2019</h2>
+                        <p class="white-text">DesignWebtech Web Development Course in Sao Paulo</p>
+                    </div>
+                    <div class="img-2">
+                        <h2 class="white-text">2018</h2>
+                        <p class="white-text">DesignWebtech Web Development Course in Santiago de Chile</p>
+                    </div>
+                </div>
             </div>
-            <div>
-                <h5>2018</h5>
-                <p>DesignWebtech Web Development Course in Santiago de Chile</p>
-            </div>
-        </div>
+        </section>
 
     </main>
 
-    <footer>
-        <div></div>
-        <div>
-            <p>2021 DesignWebtech Some Rights Reserved</p>
-            <p></p>
-        </div>
+    <!--Company Info Section -->
+    <footer class="footer>
+
+        <section class="sec-company-info">
+            <div class="sec-company-info-box">
+                <div class="leftitems-companyinfo">
+                    <img src="assets/webtech-logo.png" width="250" alt="Design Webtech logo"/>
+                </div>
+                <div class="rightitems-companyinfo">
+                    <p>2021 DesignWebtech Some Rights Reserved</p>
+                    <p>990 Hummingbird Blvd. Ste 503 - Humboldt CA. 33132</p>
+                </div>
+            </div>
+        </section>
+
     </footer>
 
 </body>

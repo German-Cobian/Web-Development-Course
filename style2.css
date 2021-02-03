@@ -1,0 +1,273 @@
+@font-face {
+    font-family: 'cocogoose', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    src: url("../assets/cocogoose/cocogoose_trial.otf") format ("open-type");
+}
+
+.cocogoose-text {
+    font-family: cocogoose;
+}
+
+.lato-text {
+    font-family: 'Lato', sans-serif;
+}
+
+.white-text {
+    color: white;
+}
+
+.bright-text {
+    color: #ec5242;
+}
+
+.dark-text{
+    color: #272a31;
+}
+
+.notso-darktext {
+    color: #d3d3d3;
+}
+
+/*Navbars Section*/
+
+.top-nav {
+    background-color: #272a31;
+}
+
+.top-nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+.bottom-nav {
+    border: 1px solid #d3d3d3;
+}
+
+.top-nav-items a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.bottom-nav-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 5% 15px 5%;
+
+}
+
+.bottom-nav-leftitems a {
+    text-decoration: none;
+    margin: 15px;
+}
+
+.bottom-nav-leftitems button {
+    border: 3px solid #ec5242;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Header Section */
+
+header {
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;*/
+}
+
+.header-box {
+    width: 95%;
+    text-align: center;
+}
+
+/* Info About Course Section*/
+
+.sec-about-course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-course-box {
+    border: 1px solid #d3d3d3;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Further Questions Section */
+
+.sec-further-questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.further-questions-box {
+    width: 70%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* DesignWebtech Logo Section */
+
+.sec-designwebtech-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.designwebtech-logo-box {
+    border: 1px solid black;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 60px;
+}
+
+.logo-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+/* Past Courses Section */
+
+.sec-past-courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.past-courses-box {
+    width: 90%;
+    text-align: center;
+}
+
+.past-courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-1 {
+    width: 95%;
+    height: 170px;
+    background-image: url("assets/conference1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.img-2 {
+    width: 95%;
+    height: 170px;
+    background-image: url("assets/conference2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+/* Company Info Section */
+
+footer {
+    background-color: #272a31;
+}
+
+.sec-company-info-box {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 10% 0 12%;
+}
+
+.rightitems-companyinfo p {
+    color: white;
+}
+
+.rightitems-companyinfo p {
+    color: white;
+}
+
+
+/* Responsive Section */
+
+@media only screen and (max-width: 767px) {
+    .top-nav {
+        display: none;
+    }
+
+    .bottom-nav {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile-nav {
+        display: none;
+    }
+
+/* Header Section */
+    .header-box {
+        text-align: center;
+    }
+
+    /* Info About Course Section*/
+
+    .about-course-box {
+        width: 60%;
+    }
+
+    /* Further Questions Section */
+
+    .further-questions-box {
+        width: 40%;
+    }
+
+    /* DesignWebtech Logo Section */
+
+    .designwebtech-logo-box {
+        border: 1px solid black;
+        width: 60%;
+    }
+
+    /* Past Courses Section */
+
+    .past-courses-box {
+        width: 80%;
+    }
+
+    .pc-imgs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between
+    }
+
+    .img-1 {
+        width: 48%;
+    }
+
+    .img-2 {
+        width: 48%;
+    }
+
+    /* Company Info Section */
+
+    .sec-company-info-box {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+
+    
+    .leftitems-companyinfo {
+        margin-left: 10%;
+    }
+
+    .rightitems-companyinfo {
+        margin-left: 35px;
+    }
+      
+}
