@@ -1,16 +1,18 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: #272a31;
+}
+
 @font-face {
     font-family: 'cocogoose', sans-serif;
     font-weight: bold;
     font-style: normal;
-    src: url("../assets/cocogoose/cocogoose_trial.otf") format ("open-type");
+    src: url("assets/fonts/cocogoose_trial.otf") format ("open-type");
 }
 
 .cocogoose-text {
     font-family: cocogoose;
-}
-
-.lato-text {
-    font-family: 'Lato', sans-serif;
 }
 
 .white-text {
@@ -94,7 +96,14 @@
 .header-box {
     margin: 100px auto 50px auto;
     width: 95%;
+}
+
+.header-box {
     text-align: center;
+}
+
+.header-box h1 {
+    font-size: 23px;
 }
 
 /* Info About Course Section*/
@@ -183,9 +192,26 @@
         url("assets/conference2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
 
-  }
+/* Partner Section */
 
+.sec-partner {
+    background-color :#272a31;
+}
+
+.sec-partner h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+.bottomitems-partner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 60px 50px 60px;
+}
 
 /* Company Info Section */
 
@@ -196,18 +222,20 @@ footer {
 .sec-company-info-box {
     height: 180px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: white;
     border: 1px solid black;
 }
 
-.rightitems-companyinfo p {
-    color: white;
+.leftitems-companyinfo img{
+    width: 200px;
 }
 
 .rightitems-companyinfo p {
-    color: white;
+    margin-left: 35px;
+    color: #272a31;
 }
 
 
@@ -225,6 +253,7 @@ footer {
     .bottom-nav {
         display: none;
     }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -236,6 +265,14 @@ footer {
 
     .header-box {
         text-align: center;
+    }
+
+    .header-box p {
+        display: none;
+    }
+
+    .header-box h1 {
+        font-size: 40px;
     }
 
     /* Info About Course Section*/
@@ -276,17 +313,24 @@ footer {
         width: 48%;
     }
 
+    /* Partner Section*/
+
+    .sec-partner {
+        display: none;
+    }
+
     /* Company Info Section */
 
     .sec-company-info-box {
-        height: 180px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        background-color: #272a31;
     }
 
-    .rightitems-companyinfo {
-        margin-left: 35px;
+    .leftitems-companyinfo img{
+        width: 250px;
     }
-      
+
+    .rightitems-companyinfo p {
+        color: white;
+    }
+
 }
