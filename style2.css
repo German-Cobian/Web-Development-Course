@@ -8,7 +8,7 @@ body {
   font-family: 'cocogoose', sans-serif;
   font-weight: bold;
   font-style: normal;
-  src: url("assets/fonts/cocogoose_trial.otf") format ("open-type");
+  src: ("assets/fonts/cocogoose_trial.otf") format ("open-type");
 }
 
 .cocogoose-text {
@@ -95,9 +95,6 @@ body {
 .header-box {
   margin: 100px auto 50px auto;
   width: 95%;
-}
-
-.header-box {
   text-align: center;
 }
 
@@ -199,7 +196,7 @@ body {
 /* Partner Section */
 
 .sec-partner {
-  background-color:#272a31;
+  background-color: #272a31;
 }
 
 .sec-partner h2 {
@@ -275,7 +272,7 @@ footer {
     font-size: 40px;
   }
 
-  /* Info About Course Section*/
+  /* Info About Course Section */
 
   .about-course-box {
     width: 60%;
@@ -313,13 +310,13 @@ footer {
     width: 48%;
   }
 
-/* Partner Section */
+  /* Partner Section */
 
   .sec-partner {
     display: none;
   }
 
-/* Company Info Section */
+  /* Company Info Section */
 
   .sec-company-info-box {
     background-color: #272a31;

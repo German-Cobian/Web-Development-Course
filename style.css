@@ -8,7 +8,7 @@ body {
   font-family: 'cocogoose', sans-serif;
   font-weight: bold;
   font-style: normal;
-  src: url("fonts/cocogoose_trial.otf") format ("open-type");
+  src: ("fonts/cocogoose_trial.otf") format ("open-type");
 }
 
 .cocogoose-text {
@@ -142,7 +142,7 @@ body {
 /* Partner Section */
 
 .sec-partner {
-  background-color:#272a31;
+  background-color: #272a31;
 }
 
 .sec-partner h2 {

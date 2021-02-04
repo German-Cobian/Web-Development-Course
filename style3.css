@@ -8,7 +8,7 @@ body {
   font-family: 'cocogoose', sans-serif;
   font-weight: bold;
   font-style: normal;
-  src: url("assets/fonts/cocogoose_trial.otf") format ("open-type");
+  src: ("assets/fonts/cocogoose_trial.otf") format ("open-type");
 }
 
 .cocogoose-text {
@@ -73,8 +73,8 @@ body {
 }
 
 .bottom-nav {
-  display:flex;
-  flex-direction:row;
+  display: flex;
+  flex-direction: row;
   justify-content: flex-end;
   margin-right: 5%;
 }
@@ -84,7 +84,6 @@ body {
   color: black;
   margin: 10px;
 }
-
 
 /* Header Section */
 
@@ -96,7 +95,7 @@ h1 {
 /* Attendance Checkboxes */
 
 .check-attendance {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   margin: 52px auto 50px auto;
@@ -112,7 +111,7 @@ h1 {
 /* Ticket Prices Table */
 
 .ticket-price {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -125,7 +124,8 @@ h1 {
   flex-direction: column;
 }
 
-.attendance-days th, td {
+.attendance-days th, 
+.attendance-days td {
   border: 1px solid black;
 }
 
@@ -168,12 +168,12 @@ h1 {
   margin: 50px auto 100px auto;
 }
 
-.comments h3{
+.comments h3 {
   text-align: center;
 }
 
 textarea {
-  width: 90%
+  width: 90%;
 }
 
 /* Responsive Section */
@@ -190,7 +190,6 @@ textarea {
   .bottom-nav {
     display: none;
   }
-
 }
 
 @media only screen and (min-width: 768px) {
