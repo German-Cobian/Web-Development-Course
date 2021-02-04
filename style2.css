@@ -1,336 +1,336 @@
 body {
-    font-family: 'Lato', sans-serif;
-    font-size: 12px;
-    color: #272a31;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  color: #272a31;
 }
 
 @font-face {
-    font-family: 'cocogoose', sans-serif;
-    font-weight: bold;
-    font-style: normal;
-    src: url("assets/fonts/cocogoose_trial.otf") format ("open-type");
+  font-family: 'cocogoose', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  src: url("assets/fonts/cocogoose_trial.otf") format ("open-type");
 }
 
 .cocogoose-text {
-    font-family: cocogoose;
+  font-family: cocogoose;
 }
 
 .white-text {
-    color: white;
+  color: white;
 }
 
 .bright-text {
-    color: #ec5242;
+  color: #ec5242;
 }
 
 .dark-text{
-    color: #272a31;
+  color: #272a31;
 }
 
 .notso-darktext {
-    color: #d3d3d3;
+  color: #d3d3d3;
 }
 
 .margin-text {
-    margin-left: 10px;
-    margin-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /*Navbars Section*/
 
 .top-nav {
-    background-color: #272a31;
+  background-color: #272a31;
 }
 
 .top-nav-items {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 5%;
 }
 
 .top-nav-items a {
-    color: white;
-    text-decoration: none;
-    margin: 15px;
+  color: white;
+  text-decoration: none;
+  margin: 15px;
 }
 
 .middle-nav {
-    border-bottom: 1px solid #d3d3d3;
+ border-bottom: 1px solid #d3d3d3;
 }
 
 .middle-nav-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 15px 5% 15px 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px 5% 15px 5%;
 
 }
 
 .middle-nav-leftitems a {
-    text-decoration: none;
-    margin: 15px;
+  text-decoration: none;
+  margin: 15px;
 }
 
 .middle-nav-leftitems button {
-    border: 3px solid #ec5242;
-    padding-top: 5px;
-    padding-bottom: 5px;
+  border: 3px solid #ec5242;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .bottom-nav {
-    display:flex;
-    flex-direction:row;
-    justify-content: flex-end;
-    margin-right: 5%;
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-end;
+  margin-right: 5%;
 }
 
 .bottom-nav a {
-    text-decoration: none;
-    color: black;
-    margin: 10px;
+  text-decoration: none;
+  color: black;
+  margin: 10px;
 }
 
 /* Header Section */
 
 .header-box {
-    margin: 100px auto 50px auto;
-    width: 95%;
+  margin: 100px auto 50px auto;
+  width: 95%;
 }
 
 .header-box {
-    text-align: center;
+  text-align: center;
 }
 
 .header-box h1 {
-    font-size: 23px;
+  font-size: 23px;
 }
 
 /* Info About Course Section*/
 
 .sec-about-course {
-    margin: 50px auto 50px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin: 50px auto 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-course-box {
-    border: 1px solid #d3d3d3;
-    width: 90%;
-    text-align: center;
+  border: 1px solid #d3d3d3;
+  width: 90%;
+  text-align: center;
 }
 
 /* Further Questions Section */
 
 .sec-further-questions {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .further-questions-box {
-    width: 70%;
-    text-align: center;
+  width: 70%;
+  text-align: center;
 }
 
 /* DesignWebtech Logo Section */
 
 .sec-designwebtech-logo {
-    margin: 50px auto 50px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin: 50px auto 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .designwebtech-logo-box {
-    border: 1px solid #d3d3d3;
-    text-align: center;
-    width: 70%;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+  width: 70%;
 }
 
 .logo-holder {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
 }
 
 /* Past Courses Section */
 
 .sec-past-courses {
-    margin: 50px auto 100px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin: 50px auto 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .past-courses-box {
-    width: 90%;
-    text-align: center;
+  width: 90%;
+  text-align: center;
 }
 
 .imgs-txt {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .img-1 {
-    width: 95%;
-    height: 250px;
-    background-image: linear-gradient(rgb(228 224 225 / 5%), rgb(8 8 8 / 93%)),
-        url("assets/conference1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 30px;
+  width: 95%;
+  height: 250px;
+  background-image: linear-gradient(rgb(228 224 225 / 5%), rgb(8 8 8 / 93%)),
+    url("assets/conference1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
   }
 
 .img-2 {
-    width: 95%;
-    height: 250px;
-    background-image: linear-gradient(rgb(228 224 225 / 5%), rgb(8 8 8 / 93%)),
-        url("assets/conference2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 95%;
+  height: 250px;
+  background-image: linear-gradient(rgb(228 224 225 / 5%), rgb(8 8 8 / 93%)),
+    url("assets/conference2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Partner Section */
 
 .sec-partner {
-    background-color :#272a31;
+  background-color :#272a31;
 }
 
 .sec-partner h2 {
-    text-align: center;
-    margin-top: 0;
-    padding-top: 30px;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 30px;
 }
 
 .bottomitems-partner {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 30px 60px 50px 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px 60px 50px 60px;
 }
 
 /* Company Info Section */
 
 footer {
-    background-color: #272a31;
+  background-color: #272a31;
 }
 
 .sec-company-info-box {
-    height: 180px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    border: 1px solid black;
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
 }
 
 .leftitems-companyinfo img{
-    width: 200px;
+  width: 200px;
 }
 
 .rightitems-companyinfo p {
-    margin-left: 35px;
-    color: #272a31;
+  margin-left: 35px;
+  color: #272a31;
 }
 
 
 /* Responsive Section */
 
 @media only screen and (max-width: 767px) {
-    .top-nav {
-        display: none;
-    }
+  .top-nav {
+    display: none;
+  }
 
-    .middle-nav {
-        display: none;
-    }
+  .middle-nav {
+    display: none;
+  }
 
-    .bottom-nav {
-        display: none;
-    }
+  .bottom-nav {
+    display: none;
+  }
 
 }
 
 @media only screen and (min-width: 768px) {
-    .mobile-nav {
-        display: none;
-    }
+  .mobile-nav {
+    display: none;
+  }
 
 /* Header Section */
 
-    .header-box {
-        text-align: center;
-    }
+  .header-box {
+    text-align: center;
+  }
 
-    .header-box p {
-        display: none;
-    }
+  .header-box p {
+    display: none;
+  }
 
-    .header-box h1 {
-        font-size: 40px;
-    }
+  .header-box h1 {
+    font-size: 40px;
+  }
 
-    /* Info About Course Section*/
+/* Info About Course Section*/
 
-    .about-course-box {
-        width: 60%;
-    }
+  .about-course-box {
+    width: 60%;
+  }
 
-    /* Further Questions Section */
+/* Further Questions Section */
 
-    .further-questions-box {
-        width: 40%;
-    }
+  .further-questions-box {
+    width: 40%;
+  }
 
-    /* DesignWebtech Logo Section */
+/* DesignWebtech Logo Section */
 
-    .designwebtech-logo-box {
-        width: 60%;
-    }
+  .designwebtech-logo-box {
+    width: 60%;
+  }
 
     /* Past Courses Section */
 
-    .past-courses-box {
-        width: 80%;
-    }
+  .past-courses-box {
+    width: 80%;
+  }
 
-    .pc-imgs {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between
-    }
+  .pc-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+  }
 
-    .img-1 {
-        width: 48%;
-    }
+  .img-1 {
+    width: 48%;
+  }
 
-    .img-2 {
-        width: 48%;
-    }
+  .img-2 {
+    width: 48%;
+  }
 
-    /* Partner Section*/
+/* Partner Section*/
 
-    .sec-partner {
-        display: none;
-    }
+  .sec-partner {
+    display: none;
+  }
 
-    /* Company Info Section */
+/* Company Info Section */
 
-    .sec-company-info-box {
-        background-color: #272a31;
-    }
+  .sec-company-info-box {
+    background-color: #272a31;
+  }
 
-    .leftitems-companyinfo img{
-        width: 250px;
-    }
+  .leftitems-companyinfo img{
+    width: 250px;
+  }
 
-    .rightitems-companyinfo p {
-        color: white;
-    }
+  .rightitems-companyinfo p {
+    color: white;
+  }
 
 }

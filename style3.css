@@ -1,201 +1,201 @@
 body {
-    font-family: 'Lato', sans-serif;
-    font-size: 12px;
-    color: #272a31;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  color: #272a31;
 }
 
 @font-face {
-    font-family: 'cocogoose', sans-serif;
-    font-weight: bold;
-    font-style: normal;
-    src: url("assets/fonts/cocogoose_trial.otf") format ("open-type");
+  font-family: 'cocogoose', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  src: url("assets/fonts/cocogoose_trial.otf") format ("open-type");
 }
 
 .cocogoose-text {
-    font-family: cocogoose;
+  font-family: cocogoose;
 }
 
 .white-text {
-    color: white;
+  color: white;
 }
 
 .bright-text {
-    color: #ec5242;
+  color: #ec5242;
 }
 
 .dark-text{
-    color: #272a31;
+  color: #272a31;
 }
 
 .notso-darktext {
-    color: #d3d3d3;
+  color: #d3d3d3;
 }
 
 /*Navbars Section*/
 
 .top-nav {
-    background-color: #272a31;
+  background-color: #272a31;
 }
 
 .top-nav-items {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 5%;
 }
 
 .top-nav-items a {
-    color: white;
-    text-decoration: none;
-    margin: 15px;
+  color: white;
+  text-decoration: none;
+  margin: 15px;
 }
 
 .middle-nav {
-    border-bottom: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
 }
 
 .middle-nav-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 15px 5% 15px 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px 5% 15px 5%;
 
 }
 
 .middle-nav-leftitems a {
-    text-decoration: none;
-    margin: 15px;
+  text-decoration: none;
+  margin: 15px;
 }
 
 .middle-nav-leftitems button {
-    border: 3px solid #ec5242;
-    padding-top: 5px;
-    padding-bottom: 5px;
+  border: 3px solid #ec5242;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .bottom-nav {
-    display:flex;
-    flex-direction:row;
-    justify-content: flex-end;
-    margin-right: 5%;
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-end;
+  margin-right: 5%;
 }
 
 .bottom-nav a {
-    text-decoration: none;
-    color: black;
-    margin: 10px;
+  text-decoration: none;
+  color: black;
+  margin: 10px;
 }
 
 
 /* Header Section */
 
 h1 {
-    text-align: center;
-    margin: 100px auto 50px auto;
+  text-align: center;
+  margin: 100px auto 50px auto;
 }
 
 /* Attendance Checkboxes */
 
 .check-attendance {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 52px auto 50px auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 52px auto 50px auto;
 }
 
 .modules-toattend {
-    border: 2px solid #ec5242;
-    width: 61%;
-    display: flex;
-    flex-direction: column;
+  border: 2px solid #ec5242;
+  width: 61%;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Ticket Prices Table */
 
 .ticket-price {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 50px auto 50px auto;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto 50px auto;
 }
 
 .attendance-days {
-    width: 32%;
-    display: flex;
-    flex-direction: column;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
 }
 
 .attendance-days th, td {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 .prices {
-    text-align: center;
+  text-align: center;
 }
 
 /* Number of Days Checkboxes */
 
 .check-numbdays {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 50px auto 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto 50px auto;
 }
 
 .numberof-days {
-    border: 2px solid #ec5242;
-    width: 52%;
-    display: flex;
-    flex-direction: column;
+  border: 2px solid #ec5242;
+  width: 52%;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Submit Button */
 
 .submit-btn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .submit {
-    width: 25%;
-    border: 2px solid #ec5242;
+  width: 25%;
+  border: 2px solid #ec5242;
 }
 
 /* Comments Section */
 
 .comments {
-    margin: 50px auto 100px auto;
+  margin: 50px auto 100px auto;
 }
 
 .comments h3{
-    text-align: center;
+  text-align: center;
 }
 
 textarea {
-    width: 90%
+  width: 90%
 }
 
 /* Responsive Section */
 
 @media only screen and (max-width: 767px) {
-    .top-nav {
-        display: none;
-    }
+  .top-nav {
+    display: none;
+  }
 
-    .middle-nav {
-        display: none;
-    }
+  .middle-nav {
+    display: none;
+  }
 
-    .bottom-nav {
-        display: none;
-    }
+  .bottom-nav {
+    display: none;
+  }
 
 }
 
 @media only screen and (min-width: 768px) {
-    .mobile-nav {
-        display: none;
-    }
+  .mobile-nav {
+    display: none;
+  }
 
