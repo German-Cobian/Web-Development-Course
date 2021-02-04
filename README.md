@@ -33,7 +33,9 @@ Acknowledgements
 
 License
 
-    This project is MIT licensed. 
+    This project is MIT licensed.
+
+    Design idea by Cindy Shin in Behance (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) all Rights Reserved. Creative Commons License https://creativecommons.org/licenses/by-nc/4.0/legalcode
     
 
    

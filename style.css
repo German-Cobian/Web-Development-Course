@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   font-size: 12px;
@@ -8,7 +13,7 @@ body {
   font-family: 'cocogoose', sans-serif;
   font-weight: bold;
   font-style: normal;
-  src: ("fonts/cocogoose_trial.otf") format ("open-type");
+  src: ("assets/fonts/cocogoose_trial.otf") format ("open-type");
 }
 
 .cocogoose-text {
@@ -74,8 +79,17 @@ body {
 
 /* Header Section */
 
+.sec-header {
+  background-image: url("assets/pattern.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 .sec-header-box {
-  margin: 100px auto 100px 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: 3%;
+  border: 1px solid black;
 }
 
 .sec-header-item1 p {
@@ -199,7 +213,7 @@ body {
   }
 
   .sec-header-box {
-    margin: 100px auto 100px 15%;
+   margin-left: 10%;
   }
 
   .sec-header-item1 p {
