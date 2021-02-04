@@ -23,7 +23,7 @@ body {
   color: #ec5242;
 }
 
-.dark-text{
+.dark-text {
   color: #272a31;
 }
 
@@ -31,7 +31,7 @@ body {
   color: #d3d3d3;
 }
 
-/*Navbars Section*/
+/* Navbars Section */
 
 .top-nav {
   background-color: #272a31;
@@ -59,7 +59,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin: 15px 5% 15px 5%;
-
 }
 
 .middle-nav-leftitems a {
@@ -198,4 +197,4 @@ textarea {
   .mobile-nav {
     display: none;
   }
-
+}
