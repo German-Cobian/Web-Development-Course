@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-size: 10px;
 }
 
 body {
@@ -90,95 +91,23 @@ body {
   margin: 10px;
 }
 
-/* Header Section */
-
-h1 {
-  text-align: center;
-  margin: 100px auto 50px auto;
+.subheaders {
+  font-size: 35px;
 }
 
-/* Attendance Checkboxes */
-
-.check-attendance {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 52px auto 50px auto;
-}
-
-.modules-toattend {
-  border: 2px solid #ec5242;
-  width: 61%;
-  display: flex;
-  flex-direction: column;
-}
-
-/* Ticket Prices Table */
-
-.ticket-price {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 50px auto 50px auto;
-}
-
-.attendance-days {
-  width: 32%;
-  display: flex;
-  flex-direction: column;
-}
-
-.attendance-days th, 
-.attendance-days td {
-  border: 1px solid black;
-}
-
-.prices {
-  text-align: center;
-}
-
-/* Number of Days Checkboxes */
-
-.check-numbdays {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 50px auto 50px auto;
-}
-
-.numberof-days {
-  border: 2px solid #ec5242;
-  width: 52%;
-  display: flex;
-  flex-direction: column;
-}
-
-/* Submit Button */
-
-.submit-btn {
+.optionbox {
+  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.submit {
-  width: 25%;
-  border: 2px solid #ec5242;
+.tickets-box {
+  width: 80%;
 }
 
-/* Comments Section */
-
-.comments {
-  margin: 50px auto 100px auto;
-}
-
-.comments h3 {
-  text-align: center;
-}
-
-textarea {
-  width: 90%;
+.menu-box {
+  width: 80%;
 }
 
 /* footer / Company Info Section */
@@ -227,6 +156,17 @@ textarea {
 
   .leftitems-companyinfo img {
     width: 250px;
+  }
+
+  .optionbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .optionbox p {
+    padding-top: 10px;
   }
 
 }

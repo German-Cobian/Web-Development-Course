@@ -1,160 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="stylesheet" href="style3.css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap">
-        <title>DesignWebtech Web Development Course</title>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tickets.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap">
+    <title>DesignWebtech Web Development Course</title>
+  </head>
     
-    <body>
+  <body>
 
-        <nav class="mobile-nav">
-            <img src="assets/menu.jpg" alt="menu icon">
-        </nav>
-    
-        <nav class="top-nav">
+    <nav class="mobile-nav">
+      <img src="assets/menu.jpg" alt="menu icon">
+    </nav>
 
-            <div class= "top-nav-items">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#">Spanish</a>
-            <a href="">My Page</a>
-            <a href="">Logout</a>            
-            </div>
-        </nav> 
+    <nav class="top-nav">
 
-        <nav class="middle-nav">
+      <div class= "top-nav-items">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#">Spanish</a>
+        <a href="">My Page</a>
+        <a href="">Logout</a>            
+      </div>
+    </nav> 
 
-            <div class="middle-nav-box">
-                <div>
-                    <a href="index.html" class="item1"><img src="assets/webtech-logo.png" width="150" alt="Design Webtech logo"></a>
-                </div>
-                <div class="middle-nav-leftitems">
-                    <a href="about.html" class="links-toleft bright-text">About</a>
-                    <a href="#" class="dark-text">Program</a>
-                    <a href="" class="dark-text">Sponsor</a>
-                    <a href="#" class="dark-text">News</a>
-                    <button class="bright-text" type="button">DesignWebtech</button>
-                </div>
-            </div>
-        </nav>
+    <nav class="middle-nav">
 
-        <nav class="bottom-nav">
-            <a href="index.html"><img src="assets/home.png" height="20" alt=" home icon"></a>
-            <a href="#">Designers</a>
-            <a href="#">Hackers</a>
-         
-        </nav>
+      <div class="middle-nav-box">
+        <div>
+          <a href="home.html" class="item1"><img src="assets/webtech-logo.png" width="150" alt="Design Webtech logo"></a>
+        </div>
+        <div class="middle-nav-leftitems">
+          <a href="about.html" class="links-toleft bright-text">About</a>
+          <a href="#" class="dark-text">Program</a>
+          <a href="" class="dark-text">Sponsor</a>
+          <a href="#" class="dark-text">News</a>
+          <button class="bright-text" type="button">DesignWebtech</button>
+        </div>
+      </div>
+    </nav>
 
-        <main>
-
-            <h1>Select Tickets</h1>
+    <nav class="bottom-nav">
+        <a href="home.html"><img src="assets/home.png" height="20" alt=" home icon"></a>
+        <a href="#">Designers</a>
+        <a href="#">Hackers</a>
         
-            <form action="#">
+    </nav>
 
-                <!-- Attendance Checkboxes -->
+    <main class="d-flex flex-column align-items-center">
 
-                <div class="check-attendance">
+      <h1 class="subheaders text-center mt-5 mb-4">Select Tickets</h1>
 
-                    <h3 class="bright-text">Check the Modules You Wish to Attend</h3>
+      <div class="optionbox border rounded-pill my-4">
+        <li class="text-danger px-3">Step 1</li>
+        <p>Please select the number of days that you Wish to attend.</p>
+      </div>
 
-                    <fieldset class="modules-toattend">
-                        <label for="mon"><input id="mon" type="checkbox" name="attendance">Prework - Monday, April 12</label>
-                        <label for="tues"><input id="tues" type="checkbox" name="attendance">Module 1 - Tuesday, April 13</label>
-                        <label for="wed"><input id="wed" type="checkbox" name="attendance">Module 2 - Wednesday, April 14</label>
-                        <label for="thur"><input id="thur" type="checkbox" name="attendance">Module 3 - Thursday, April 15</label>
-                        <label for="fri"><input id="fri" type="checkbox" name="attendance">DesignWebtech Kindle - Friday, April 16</label>
-                    </fieldset>
+      <fieldset class="tickets-box">
 
-                </div>
+        <div class="row mt-4">
+
+          <div class= "col-2 d-flex flex-column align-items-center border">
+            <p>Tickets</p>
+          </div>
+          <div class= "col-2 d-flex flex-column align-items-center border">
+            <p>One Day</p>
+          </div>
+          <div class= "col-2 d-flex flex-column align-items-center border">
+            <p>Two Days</p>
+          </div>
+          <div class= "col-2 d-flex flex-column align-items-center border">
+            <p>Three Days</p>
+          </div>
+          <div class= "col-2 d-flex flex-column align-items-center border">
+            <p>Four Days</p>
+          </div>
+          <div class= "col-2 d-flex flex-column align-items-center border">
+            <p>Five Days</p>
+           
+          </div>
+        
+        </div>
+
+        <div class="row border">
+
+          <div class= "col-2 d-flex flex-column align-items-center border py-2">
+            <p>Student</p>
+          </div>
+          <div class= "col-2 d-flex flex-column align-items-center border text-danger py-2">
+            <p>$60</p>
+            <input id="minus" type="radio" name="opinion" value="negative"/>
+          </div>
+          <div class= "col-2 d-flex flex-column align-items-center border text-danger py-2">
+            <p>$115</p>
+            <input id="zero" type="radio" name="opinion" value="neutral"/>
+          </div>
+          <div class= "col-2 d-flex flex-column align-items-center border text-danger py-2">
+            <p>$170</p>
+            <input id="minus" type="radio" name="opinion" value="negative"/>
+          </div>
+          <div class= "col-2 d-flex flex-column align-items-center border text-danger py-2">
+            <p>$225</p>
+            <input id="zero" type="radio" name="opinion" value="neutral"/>
+          </div>
+          <div class= "col-2 d-flex flex-column align-items-center border text-danger py-2">
+            <p>$280</p>
+            <input id="zero" type="radio" name="opinion" value="neutral"/>
+          </div>
+        
+        </div>
+
+        <div class="row border mb-4">
+
+          <div class= "col-2 d-flex flex-column align-items-center border py-2">
+            <p>Normal</p>
+          </div>
+          <div class= "col-2 d-flex flex-column align-items-center border text-danger py-2">
+            <p>$70</p>
+            <input id="minus" type="radio" name="opinion" value="negative"/>
+          </div>
+          <div class= "col-2 d-flex flex-column align-items-center border text-danger py-2">
+            <p>$135</p>
+            <input id="zero" type="radio" name="opinion" value="neutral"/>
+          </div>
+          <div class= "col-2 d-flex flex-column align-items-center border text-danger py-2">
+            <p>$200</p>
+            <input id="minus" type="radio" name="opinion" value="negative"/>
+          </div>
+          <div class= "col-2 d-flex flex-column align-items-center border text-danger py-2">
+            <p>$265</p>
+            <input id="zero" type="radio" name="opinion" value="neutral"/>
+          </div>
+          <div class= "col-2 d-flex flex-column align-items-center border text-danger py-2">
+              <p>$300</p>
+              <input id="zero" type="radio" name="opinion" value="neutral"/>
+          </div>
             
-                <!-- Ticket Prices Table -->
+        </div>
 
-                <div class="ticket-price">
+      </fieldset>  
 
-                    <h3 class="bright-text">Ticket Price Info</h3>
+      <div class="my-4">
+       <img src="assets/romboid.png" alt="romboid icon" width="40">
+      </div>
 
-                    <table class="attendance-days">
-                        <tr>
-                            <th>Ticket</th>
-                            <th>One day</th>
-                            <th>Two days</th> 
-                            <th>Three days</th>
-                            <th>Four days</th>
-                            <th>Five days</th>
-                        </tr>
-                        <tr>
-                            <td>Student</td>
-                            <td class="prices">$60</td>
-                            <td class="prices">$115</td>
-                            <td class="prices">$170</td>
-                            <td class="prices">$225</td>
-                            <td class="prices">$280</td>
-                        </tr>
-                        <tr>
-                            <td>Normal</td>
-                            <td class="prices">$70</td>
-                            <td class="prices">$135</td>
-                            <td class="prices">$200</td>
-                            <td class="prices">$265</td>
-                            <td class="prices">$330</td>
-                        </tr>
-                    </table>
+      <h2 class="subheaders text-center my-4">Select Your Meal</h2>
 
-                </div>
+      <div class="optionbox border rounded-pill my-4">
+        <li class="text-danger px-3">Step 2</li>
+        <p>Please select your lunch and dinner for the registered days.</p>
+      </div>
 
-                <!-- Number of Days Checkboxes -->
+      <fieldset class="menu-box border mt-4">
 
-                <div class="check-numbdays">
+        <div>
+          <p class="text-center border-bottom py-3">Lunch</p>
+        </div>
 
-                    <h3 class="bright-text">Check the Number of Days You Wish to Attend</h3>
+        <div class="d-flex flex-row justify-content-center row py-4">
 
-                    <fieldset class="numberof-days">
-                        <label for="one"><input id="one" type="checkbox" name="days-number">One day</label>
-                        <label for="two"><input id="two" type="checkbox" name="days-number">Two days</label>
-                        <label for="three"><input id="three" type="checkbox" name="days-number">Three days</label>
-                        <label for="four"><input id="four" type="checkbox" name="days-number">Four days</label>
-                        <label for="five"><input id="five" type="checkbox" name="days-number">Five days</label>
-                    </fieldset>
+          <div class= "col-2 d-flex flex-column align-items-center">
+            <p>Menu 1</p>
+            <input id="zero" type="radio" name="opinion" value="neutral"/>
+          </div>
+          <div class= "col-2 flex-column align-items-center">
+            <p>Menu 2</p>
+            <input id="zero" type="radio" name="opinion" value="neutral"/>
+          </div>
+          <div class= "col-2 d-flex flex-column align-items-center">
+            <p>Menu 3</p>
+            <input id="zero" type="radio" name="opinion" value="neutral"/>
+          </div>
+          <div class= "col-2 d-flex flex-column align-items-center">
+            <p>Menu 4</p>
+            <input id="minus" type="radio" name="opinion" value="negative"/>
+          </div>
+          <div class= "col-2 d-flex flex-column align-items-center">
+            <p>Menu 5</p>
+            <input id="zero" type="radio" name="opinion" value="neutral"/>
+          </div>
 
-                </div>
+        </div>
+    
+      </fieldset>
 
-                <!-- Submit Button -->
+      <fieldset class="menu-box border mt-4 mb-5">
 
-                <div class="submit-btn">
-                    <button class="submit" type="button">Submit</button>
-                </div>
+        <div>
+          <p class="text-center border-bottom py-3">Dinner</p>
+        </div>
 
-                <!-- Comments Section -->
+        <div class="d-flex flex-row justify-content-center row py-4">
 
-                <div class="comments">
-                    <h3 class="bright-text">Comments</h3>
-                    <textarea name="username" placeholder="Type your comment here" required maxlength="1000"></textarea>
-                </div>
+          <div class= "col-2 d-flex flex-column align-items-center">
+            <p>Menu 1</p>
+            <input id="plus" type="radio" name="opinion" value="positive"/>
+          </div>
+          <div class= "col-2 d-flex flex-column align-items-center">
+            <p>Menu 2</p>
+            <input id="minus" type="radio" name="opinion" value="negative"/>
+          </div>
+          <div class= "col-2 d-flex flex-column align-items-center">
+            <p>Menu 3</p>
+            <input id="zero" type="radio" name="opinion" value="neutral"/>
+          </div>
+          <div class= "col-2 d-flex flex-column align-items-center">
+            <p>Menu 4</p>
+            <input id="minus" type="radio" name="opinion" value="negative"/>
+          </div>
+          <div class= "col-2 d-flex flex-column align-items-center">
+            <p>Menu 5</p>
+            <input id="zero" type="radio" name="opinion" value="neutral"/>
+          </div>
+        
+        </div>
 
-            </form>
+      </fieldset>
 
-        </main>
+      <!-- Submit Button -->
+
+      <div class="mt-5 mb-5">
+        <a class="submit px-5 py-3 btn btn-danger font-weight-bold d-inline align-self-center">Submit</a>
+      </div>
+
+    </main>
 
         <footer>
 
          <!--Company Info Section -->
 
-            <section class="sec-company-info">
-                <div class="sec-company-info-box">
-                    <div class="leftitems-companyinfo">
-                        <img src="assets/webtech-logo.png" alt="Design Webtech logo"/>
-                    </div>
-                    <div class="rightitems-companyinfo">
-                        <p>2021 DesignWebtech</p>
-                        <p>Some Rights Reserved</p>
-                    </div>
-                </div>
-            </section>
+      <div class="sec-company-info mt-5">
+        <div class="sec-company-info-box">
+          <div class="leftitems-companyinfo">
+            <img src="assets/webtech-logo.png" alt="Design Webtech logo"/>
+          </div>
+          <div class="rightitems-companyinfo">
+            <p>2021 DesignWebtech</p>
+            <p>Some Rights Reserved</p>
+          </div>
+        </div>
+    </div>
 
         </footer>
 

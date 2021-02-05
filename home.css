@@ -89,19 +89,27 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
   margin-left: 3%;
-  border: 1px solid black;
 }
 
 .sec-header-item1 p {
   font-size: 25px;
 }
 
-.sec-header-item1 h1 {
-  font-size: 40px;
+.sec-header-item1 h1,
+.sec-header-item1 h2 {
+  font-size: 30px;
 }
 
-.sec-header-item2 h2 {
+.sec-header-item2 {
+  margin: 30px auto 40px 30px;
+}
+
+.sec-header-item3 h2 {
   font-size: 30px;
+}
+
+.sec-header-item3 p { 
+  font-size: 16px;
 }
 
 /* Main Program Section */
@@ -124,6 +132,15 @@ body {
   flex-direction: row;
   background-color: #423f3f;
   margin: 15px;
+}
+
+.main-program-item h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.main-program-item p {
+  margin-bottom: 10px;
 }
 
 .linkto-program {
@@ -150,6 +167,7 @@ body {
 }
 
 .f-l-rightitems {
+  padding-top: 23px;
   margin-left: 15px;
 }
 
@@ -192,7 +210,7 @@ body {
   }
 
   .mp-item-img {
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 10px;
     width: 15%;
   }
@@ -202,6 +220,7 @@ body {
   }
 
   .main-program-item p {
+    padding-top: 10px;
     padding-right: 10px;
     width: 100%;
   }
@@ -220,15 +239,17 @@ body {
     font-size: 30px;
   }
 
-  .sec-header-item1 h1 {
+  .sec-header-item1 h1,
+  .sec-header-item1 h2 {
     font-size: 60px;
   }
 
-  .sec-header-item2 h2 {
+  .sec-header-item3 h2 {
     font-size: 30px;
   }
 
-  .sec-header-item2 {
+  .sec-header-item2,
+  .sec-header-item3 {
     width: 55%;
   }
 
