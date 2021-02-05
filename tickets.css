@@ -14,7 +14,7 @@ body {
   font-family: 'cocogoose', sans-serif;
   font-weight: bold;
   font-style: normal;
-  src: url("assets/fonts/cocogoose_trial.otf") format ("open-type");
+  src: url("../assets/fonts/cocogoose_trial.otf") format ("open-type");
 }
 
 .cocogoose-text {

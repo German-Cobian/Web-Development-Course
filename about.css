@@ -13,7 +13,7 @@ body {
   font-family: 'cocogoose', sans-serif;
   font-weight: bold;
   font-style: normal;
-  src: url("assets/fonts/cocogoose_trial.otf") format ("open-type");
+  src: url("../assets/fonts/cocogoose_trial.otf") format ("open-type");
 }
 
 .cocogoose-text {
@@ -121,6 +121,15 @@ body {
   border: 1px solid #d3d3d3;
   width: 90%;
   text-align: center;
+  line-height: 1.5;
+}
+
+.top-p {
+  padding-top: 15px;
+}
+
+.bottom-p {
+  padding-bottom: 15px;
 }
 
 /* Further Questions Section */
@@ -148,6 +157,7 @@ body {
 .designwebtech-logo-box {
   text-align: center;
   width: 70%;
+  line-height: 1.5;
 }
 
 .designwebtech-logo-box h2 {
