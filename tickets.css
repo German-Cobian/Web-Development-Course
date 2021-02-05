@@ -14,11 +14,11 @@ body {
   font-family: 'cocogoose';
   font-weight: bold;
   font-style: normal;
-  src: url("assets/fonts/cocogoose_trial.otf") format ("open-type");
+  src: url("assets/fonts/cocogoose_trial.otf");
 }
 
 .cocogoose-text {
-  font-family: cocogoose;
+  font-family: cocogoose, sans-serif;
 }
 
 .white-text {
