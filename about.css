@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
   font-family: 'cocogoose', sans-serif;
   font-weight: bold;
   font-style: normal;
-  src: ("assets/fonts/cocogoose_trial.otf") format ("open-type");
+  src: url("assets/fonts/cocogoose_trial.otf") format ("open-type");
 }
 
 .cocogoose-text {
@@ -103,7 +103,6 @@ body {
   text-align: center;
 }
 
-
 .header-box h1,
 .header-box h2 {
   font-size: 23px;
@@ -176,7 +175,7 @@ body {
   text-align: center;
 }
 
-.past-courses-box h2 { 
+.past-courses-box h2 {
   padding-bottom: 30px;
 }
 
