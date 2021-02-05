@@ -10,10 +10,10 @@ body {
 }
 
 @font-face {
-  font-family: 'cocogoose', sans-serif;
+  font-family: 'cocogoose';
   font-weight: bold;
   font-style: normal;
-  src: url("../assets/fonts/cocogoose_trial.otf") format ("open-type");
+  src: url("assets/fonts/cocogoose_trial.otf") format ("open-type");
 }
 
 .cocogoose-text {
@@ -143,6 +143,10 @@ body {
 .further-questions-box {
   width: 70%;
   text-align: center;
+}
+
+.further-questions-box a{
+  color: black;
 }
 
 /* DesignWebtech Logo Section */

@@ -10,10 +10,10 @@ body {
 }
 
 @font-face {
-  font-family: 'cocogoose', sans-serif;
+  font-family: 'cocogoose';
   font-weight: bold;
   font-style: normal;
-  src: url("../assets/fonts/cocogoose_trial.otf") format ("open-type");
+  src: url("assets/fonts/cocogoose_trial.otf") format ("open-type");
 }
 
 .cocogoose-text {
@@ -169,6 +169,11 @@ body {
 .f-l-rightitems {
   padding-top: 23px;
   margin-left: 15px;
+}
+
+.padding-correct {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* Partner Section */
