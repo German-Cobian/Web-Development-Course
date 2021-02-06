@@ -208,7 +208,7 @@ body {
   height: 250px;
   background-image:
     linear-gradient(rgb(228 224 225 / 5%), rgb(8 8 8 / 93%)),
-    url("assets/conference1.jpg");
+    url("assets/images/conference1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 30px;
@@ -219,7 +219,7 @@ body {
   height: 250px;
   background-image:
     linear-gradient(rgb(228 224 225 / 5%), rgb(8 8 8 / 93%)),
-    url("assets/conference2.jpg");
+    url("assets/images/conference2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
