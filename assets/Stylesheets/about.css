@@ -5,7 +5,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   color: #272a31;
 }
 
@@ -78,8 +78,7 @@ body {
 
 .middle-nav-leftitems button {
   border: 3px solid #ec5242;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 5px 3px 5px 3px;
 }
 
 .bottom-nav {
@@ -91,7 +90,7 @@ body {
 
 .bottom-nav a {
   text-decoration: none;
-  color: black;
+  color: #272a31;
   margin: 10px;
 }
 
@@ -135,7 +134,7 @@ body {
   border: 1px solid #d3d3d3;
   width: 90%;
   text-align: center;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 
 .top-p {
@@ -157,6 +156,7 @@ body {
 .further-questions-box {
   width: 70%;
   text-align: center;
+  line-height: 1.8;
 }
 
 .further-questions-box a {
@@ -175,7 +175,7 @@ body {
 .designwebtech-logo-box {
   text-align: center;
   width: 70%;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 
 .designwebtech-logo-box h2 {

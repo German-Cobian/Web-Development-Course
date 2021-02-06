@@ -5,7 +5,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   color: #272a31;
 }
 
@@ -87,8 +87,7 @@ body {
 
 .bottom-nav-leftitems button {
   border: 3px solid #ec5242;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 5px 3px 5px 3px;
 }
 
 /* Header Section */
@@ -149,6 +148,8 @@ body {
 }
 
 .main-program-item h5 {
+  font-size: 13px;
+  padding-right: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
