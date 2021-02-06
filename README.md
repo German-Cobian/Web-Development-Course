@@ -21,11 +21,6 @@ Live Link
 
 https://german-cobian.github.io/Web-Development-Course/.
 
-Web Page View
-
-https://user-images.githubusercontent.com/68709712/106815123-4195e680-6628-11eb-9c05-79b0fc8f3623.png
-
-
 ## Authors
 
 👤 **Author**
@@ -33,7 +28,7 @@ https://user-images.githubusercontent.com/68709712/106815123-4195e680-6628-11eb-
  German Cobian
   
   GitHub: @German-Cobian
-  twitter - https://twitter.com/GermanCobian3
+  Twitter - https://twitter.com/GermanCobian3
 
 
 ## 🤝 Contributing
@@ -48,7 +43,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Design idea by Cindy Shin in Behance (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) all Rights Reserved.
+Design idea by Cindy Shin in Behance (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015). All Rights Reserved.
 
 
 ## 📝 License
