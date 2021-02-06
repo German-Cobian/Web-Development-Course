@@ -36,6 +36,20 @@ body {
   color: #d3d3d3;
 }
 
+.underline-small {
+  position: relative;
+}
+
+.underline-small::after {
+  content: '';
+  height: 2px;
+  width: 50%;
+  background: #ec5242;
+  position: absolute;
+  left: 25%;
+  bottom: -10px;
+}
+
 /* Navbars Section */
 
 .top-nav {
@@ -80,7 +94,7 @@ body {
 /* Header Section */
 
 .sec-header {
-  background-image: url("assets/images/pattern.jpg");
+  background-image: url("../images/pattern.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -150,25 +164,57 @@ body {
 /* Featured Lecturers Section */
 
 .sec-featured-lecturers {
-  margin: 50px auto 30px auto;
+  margin: 50px auto 60px 15px;
 }
 
 .sec-featured-lecturers h2 {
   text-align: center;
+  text-decoration-color: #ec5254;
+  margin-bottom: 50px;
+}
+
+.underline-small2 {
+  position: relative;
+}
+
+.underline-small2::after {
+  content: '';
+  height: 2px;
+  width: 6%;
+  background: #ec5242;
+  position: absolute;
+  left: 47%;
+  bottom: -10px;
 }
 
 .featured-lecturers-item {
   display: flex;
   flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.f-l-leftitems {
+  margin-right: 70px;
 }
 
 .f-l-leftitems img {
   padding-top: 23px;
 }
 
+.f-l-image1 {
+  width: 60px;
+  height: 60px;
+  background-image: url("../images/checkerboard.jpg");
+  background-size: contain;
+}
+
+.f-l-image2 {
+  padding-top: 16px;
+  padding-left: 16px;
+}
+
 .f-l-rightitems {
   padding-top: 23px;
-  margin-left: 15px;
 }
 
 .padding-correct {
@@ -186,6 +232,20 @@ body {
   text-align: center;
   margin-top: 0;
   padding-top: 30px;
+}
+
+.underline-small3 {
+  position: relative;
+}
+
+.underline-small3::after {
+  content: '';
+  height: 2px;
+  width: 4%;
+  background: #ec5242;
+  position: absolute;
+  left: 48%;
+  bottom: -10px;
 }
 
 .bottomitems-partner {

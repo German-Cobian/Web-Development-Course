@@ -108,6 +108,20 @@ body {
   font-size: 23px;
 }
 
+.underline-small1 {
+  position: relative;
+}
+
+.underline-small1::after {
+  content: '';
+  height: 2px;
+  width: 4%;
+  background: #ec5242;
+  position: absolute;
+  left: 48%;
+  bottom: -10px;
+}
+
 /* Info About Course Section */
 
 .sec-about-course {
@@ -168,6 +182,20 @@ body {
   padding-bottom: 30px;
 }
 
+.underline-small2 {
+  position: relative;
+}
+
+.underline-small2::after {
+  content: '';
+  height: 2px;
+  width: 6%;
+  background: #ec5242;
+  position: absolute;
+  left: 47%;
+  bottom: 20px;
+}
+
 .logo-holder {
   display: flex;
   flex-direction: column;
@@ -193,6 +221,20 @@ body {
   padding-bottom: 30px;
 }
 
+.underline-small3 {
+  position: relative;
+}
+
+.underline-small3::after {
+  content: '';
+  height: 2px;
+  width: 6%;
+  background: #ec5242;
+  position: absolute;
+  left: 47%;
+  bottom: 18px;
+}
+
 .past-courses-box p {
   padding-bottom: 60px;
 }
@@ -208,7 +250,7 @@ body {
   height: 250px;
   background-image:
     linear-gradient(rgb(228 224 225 / 5%), rgb(8 8 8 / 93%)),
-    url("assets/images/conference1.jpg");
+    url("../images/conference1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 30px;
@@ -219,7 +261,7 @@ body {
   height: 250px;
   background-image:
     linear-gradient(rgb(228 224 225 / 5%), rgb(8 8 8 / 93%)),
-    url("assets/images/conference2.jpg");
+    url("../images/conference2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
