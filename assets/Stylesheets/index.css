@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  color: #272a31;
+}
+
+@font-face {
+  font-family: 'cocogoose';
+  font-weight: bold;
+  font-style: normal;
+  src: url("assets/fonts/cocogoose_trial.otf");
+}
+
+.top-nav-items a {
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+}
+
+.bottom-nav-leftitems a {
+  text-decoration: none;
+  margin: 15px;
+}
+
+.cocogoose-text {
+  font-family: cocogoose, sans-serif;
+}
+
+.white-text {
+  color: white;
+}
+
+.bright-text {
+  color: #ec5242;
+}
+
+.dark-text {
+  color: #272a31;
+}
+
+.notso-darktext {
+  color: #d3d3d3;
+}
+
+.underline-small {
+  position: relative;
+}
+
+.underline-small::after {
+  content: '';
+  height: 2px;
+  width: 50%;
+  background: #ec5242;
+  position: absolute;
+  left: 25%;
+  bottom: -10px;
+}
+
+/* Navbars Section */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.top-nav {
+  background-color: #272a31;
+}
+
+.top-nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+
+.bottom-nav {
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.bottom-nav-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px 5% 15px 5%;
+}
+
+.bottom-nav-leftitems button {
+  border: 3px solid #ec5242;
+  padding: 5px 3px 5px 3px;
+}
+
+/* Header Section */
+
+.sec-header {
+  background-image: url("../images/pattern.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.sec-header-box {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: 3%;
+}
+
+.sec-header-item1 p {
+  font-size: 25px;
+}
+
+.sec-header-item1 h1,
+.sec-header-item1 h2 {
+  font-size: 30px;
+}
+
+.sec-header-item2 {
+  margin: 30px auto 40px 30px;
+}
+
+.sec-header-item3 h2 {
+  font-size: 30px;
+}
+
+.sec-header-item3 p {
+  font-size: 16px;
+}
+
+/* Main Program Section */
+
+.sec-main-program {
+  border: 1px solid black;
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sec-main-program h2 {
+  margin: 60px auto 60px auto;
+  color: white;
+}
+
+.main-program-item {
+  display: flex;
+  flex-direction: row;
+  background-color: #423f3f;
+  margin: 15px;
+}
+
+.main-program-item h5 {
+  font-size: 13px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.main-program-item p {
+  margin-bottom: 10px;
+}
+
+.linkto-program {
+  margin: 60px auto 60px auto;
+}
+
+/* Featured Lecturers Section */
+
+.sec-featured-lecturers {
+  margin: 50px auto 60px 15px;
+}
+
+.sec-featured-lecturers h2 {
+  text-align: center;
+  text-decoration-color: #ec5254;
+  margin-bottom: 50px;
+}
+
+.underline-small2 {
+  position: relative;
+}
+
+.underline-small2::after {
+  content: '';
+  height: 2px;
+  width: 6%;
+  background: #ec5242;
+  position: absolute;
+  left: 47%;
+  bottom: -10px;
+}
+
+.featured-lecturers-item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.f-l-leftitems {
+  margin-right: 70px;
+}
+
+.f-l-leftitems img {
+  padding-top: 23px;
+}
+
+.f-l-image1 {
+  width: 60px;
+  height: 60px;
+  background-image: url("../images/checkerboard.jpg");
+  background-size: contain;
+}
+
+.f-l-image2 {
+  padding-top: 16px;
+  padding-left: 16px;
+}
+
+.f-l-rightitems {
+  padding-top: 23px;
+}
+
+.padding-correct {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Partner Section */
+
+.sec-partner {
+  background-color: #272a31;
+}
+
+.sec-partner h2 {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+.underline-small3 {
+  position: relative;
+}
+
+.underline-small3::after {
+  content: '';
+  height: 2px;
+  width: 4%;
+  background: #ec5242;
+  position: absolute;
+  left: 48%;
+  bottom: -10px;
+}
+
+.bottomitems-partner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px 60px 50px 60px;
+}
+
+/* Company Info Section */
+
+.sec-company-info-box {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto 50px 15%;
+}
+
+/* Responsive Section */
+
+@media only screen and (max-width: 767px) {
+  .top-nav {
+    display: none;
+  }
+
+  .bottom-nav {
+    display: none;
+  }
+
+  .mp-item-img {
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 15%;
+  }
+
+  .main-program-item h5 {
+    width: 25%;
+  }
+
+  .main-program-item p {
+    padding-top: 10px;
+    padding-right: 10px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .sec-header-box {
+    margin-left: 10%;
+  }
+
+  .sec-header-item1 p {
+    font-size: 30px;
+  }
+
+  .sec-header-item1 h1,
+  .sec-header-item1 h2 {
+    font-size: 60px;
+  }
+
+  .sec-header-item3 h2 {
+    font-size: 30px;
+  }
+
+  .sec-header-item2,
+  .sec-header-item3 {
+    width: 55%;
+  }
+
+  .main-program-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .main-program-item {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: 2px;
+  }
+
+  .mp-item-img {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .main-program-item h5,
+  .main-program-item p {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .featured-lecturers-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .featured-lecturers-col1,
+  .featured-lecturers-col2 {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: 10px;
+  }
+
+  .sec-company-info-box {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+
+  .leftitems-companyinfo {
+    margin-left: 10%;
+  }
+
+  .rightitems-companyinfo {
+    margin-left: 35px;
+  }
+}

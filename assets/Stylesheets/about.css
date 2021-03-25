@@ -1,0 +1,436 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  color: #272a31;
+}
+
+@font-face {
+  font-family: 'cocogoose';
+  font-weight: bold;
+  font-style: normal;
+  src: url("assets/fonts/cocogoose_trial.otf");
+}
+
+.top-nav-items a {
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+}
+
+.middle-nav-leftitems a {
+  text-decoration: none;
+  margin: 15px;
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  color: #272a31;
+  margin: 10px;
+}
+
+.further-questions-box a {
+  color: black;
+}
+
+.cocogoose-text {
+  font-family: cocogoose, sans-serif;
+}
+
+.white-text {
+  color: white;
+}
+
+.bright-text {
+  color: #ec5242;
+}
+
+.dark-text {
+  color: #272a31;
+}
+
+.notso-darktext {
+  color: #d3d3d3;
+}
+
+.margin-text {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Navbars Section */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.top-nav {
+  background-color: #272a31;
+}
+
+.top-nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+
+.middle-nav {
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.middle-nav-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px 5% 15px 5%;
+}
+
+.middle-nav-leftitems button {
+  border: 3px solid #ec5242;
+  padding: 5px 3px 5px 3px;
+}
+
+.bottom-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+
+/* Header Section */
+
+.header-box {
+  margin: 100px auto 50px auto;
+  width: 95%;
+  text-align: center;
+}
+
+.header-box h1,
+.header-box h2 {
+  font-size: 23px;
+}
+
+.underline-small1 {
+  position: relative;
+}
+
+.underline-small1::after {
+  content: '';
+  height: 2px;
+  width: 4%;
+  background: #ec5242;
+  position: absolute;
+  left: 48%;
+  bottom: -10px;
+}
+
+/* Info About Course Section */
+
+.sec-about-course {
+  margin: 50px auto 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-course-box {
+  border: 1px solid #d3d3d3;
+  width: 90%;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.top-p {
+  padding-top: 15px;
+}
+
+.bottom-p {
+  padding-bottom: 15px;
+}
+
+/* Further Questions Section */
+
+.sec-further-questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.further-questions-box {
+  width: 70%;
+  text-align: center;
+  line-height: 1.8;
+}
+
+/* DesignWebtech Logo Section */
+
+.sec-designwebtech-logo {
+  margin: 50px auto 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.designwebtech-logo-box {
+  text-align: center;
+  width: 70%;
+  line-height: 1.8;
+}
+
+.designwebtech-logo-box h2 {
+  padding-bottom: 30px;
+}
+
+.underline-small2 {
+  position: relative;
+}
+
+.underline-small2::after {
+  content: '';
+  height: 2px;
+  width: 6%;
+  background: #ec5242;
+  position: absolute;
+  left: 47%;
+  bottom: 20px;
+}
+
+.logo-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+/* Past Courses Section */
+
+.sec-past-courses {
+  margin: 50px auto 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.past-courses-box {
+  width: 90%;
+  text-align: center;
+}
+
+.past-courses-box h2 {
+  padding-bottom: 30px;
+}
+
+.underline-small3 {
+  position: relative;
+}
+
+.underline-small3::after {
+  content: '';
+  height: 2px;
+  width: 6%;
+  background: #ec5242;
+  position: absolute;
+  left: 47%;
+  bottom: 18px;
+}
+
+.past-courses-box p {
+  padding-bottom: 60px;
+}
+
+.imgs-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-1 {
+  width: 95%;
+  height: 250px;
+  background-image:
+    linear-gradient(rgb(228 224 225 / 5%), rgb(8 8 8 / 93%)),
+    url("../images/conference1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+.img-2 {
+  width: 95%;
+  height: 250px;
+  background-image:
+    linear-gradient(rgb(228 224 225 / 5%), rgb(8 8 8 / 93%)),
+    url("../images/conference2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Partner Section */
+
+.sec-partner {
+  background-color: #272a31;
+}
+
+.sec-partner h2 {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+.bottomitems-partner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px 60px 50px 60px;
+}
+
+/* Company Info Section */
+
+footer {
+  background-color: #272a31;
+}
+
+.sec-company-info-box {
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.leftitems-companyinfo img {
+  width: 200px;
+}
+
+.rightitems-companyinfo p {
+  margin-left: 35px;
+  color: #272a31;
+}
+
+/* Responsive Section */
+
+@media only screen and (max-width: 767px) {
+  .top-nav {
+    display: none;
+  }
+
+  .middle-nav {
+    display: none;
+  }
+
+  .bottom-nav {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  /* Header Section */
+
+  .header-box {
+    text-align: center;
+  }
+
+  .header-box p {
+    display: none;
+  }
+
+  .header-box h1,
+  .header-box h2 {
+    font-size: 40px;
+  }
+
+  /* Info About Course Section */
+
+  .about-course-box {
+    width: 60%;
+  }
+
+  /* Further Questions Section */
+
+  .further-questions-box {
+    width: 40%;
+  }
+
+  /* DesignWebtech Logo Section */
+
+  .designwebtech-logo-box {
+    width: 60%;
+  }
+
+  /* Past Courses Section */
+
+  .past-courses-box {
+    width: 80%;
+  }
+
+  .pc-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .img-1 {
+    width: 48%;
+  }
+
+  .img-2 {
+    width: 48%;
+  }
+
+  /* Partner Section */
+
+  .sec-partner {
+    display: none;
+  }
+
+  /* Company Info Section */
+
+  .sec-company-info-box {
+    background-color: #272a31;
+  }
+
+  .leftitems-companyinfo img {
+    width: 250px;
+  }
+
+  .rightitems-companyinfo p {
+    color: white;
+  }
+}
