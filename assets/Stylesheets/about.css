@@ -17,6 +17,27 @@ body {
   src: url("assets/fonts/cocogoose_trial.otf");
 }
 
+.top-nav-items a {
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+}
+
+.middle-nav-leftitems a {
+  text-decoration: none;
+  margin: 15px;
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  color: #272a31;
+  margin: 10px;
+}
+
+.further-questions-box a {
+  color: black;
+}
+
 .cocogoose-text {
   font-family: cocogoose, sans-serif;
 }
@@ -84,12 +105,6 @@ body {
   margin-right: 5%;
 }
 
-.top-nav-items a {
-  color: white;
-  text-decoration: none;
-  margin: 15px;
-}
-
 .middle-nav {
   border-bottom: 1px solid #d3d3d3;
 }
@@ -99,11 +114,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin: 15px 5% 15px 5%;
-}
-
-.middle-nav-leftitems a {
-  text-decoration: none;
-  margin: 15px;
 }
 
 .middle-nav-leftitems button {
@@ -116,12 +126,6 @@ body {
   flex-direction: row;
   justify-content: flex-end;
   margin-right: 5%;
-}
-
-.bottom-nav a {
-  text-decoration: none;
-  color: #272a31;
-  margin: 10px;
 }
 
 /* Header Section */
@@ -187,10 +191,6 @@ body {
   width: 70%;
   text-align: center;
   line-height: 1.8;
-}
-
-.further-questions-box a {
-  color: black;
 }
 
 /* DesignWebtech Logo Section */

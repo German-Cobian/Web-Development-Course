@@ -18,6 +18,30 @@ body {
   src: url("assets/fonts/cocogoose_trial.otf");
 }
 
+.top-nav-items a {
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+  font-size: 13px;
+}
+
+.middle-nav-leftitems a {
+  text-decoration: none;
+  margin: 15px;
+  font-size: 13px;
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  color: #272a31;
+  margin: 10px;
+  font-size: 13px;
+}
+
+.submit a {
+  font-size: 14px;
+}
+
 .white-text {
   color: white;
 }
@@ -43,7 +67,7 @@ body {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;;
+  min-width: 160px;
 }
 
 .dropdown-content a {
@@ -72,13 +96,6 @@ body {
   margin-right: 5%;
 }
 
-.top-nav-items a {
-  color: white;
-  text-decoration: none;
-  margin: 15px;
-  font-size: 13px;
-}
-
 .middle-nav {
   border-bottom: 1px solid #d3d3d3;
 }
@@ -88,12 +105,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin: 15px 5% 15px 5%;
-}
-
-.middle-nav-leftitems a {
-  text-decoration: none;
-  margin: 15px;
-  font-size: 13px;
 }
 
 .middle-nav-leftitems button {
@@ -106,13 +117,6 @@ body {
   flex-direction: row;
   justify-content: flex-end;
   margin-right: 5%;
-}
-
-.bottom-nav a {
-  text-decoration: none;
-  color: #272a31;
-  margin: 10px;
-  font-size: 13px;
 }
 
 .subheaders {
@@ -142,10 +146,6 @@ body {
 
 .menu-box {
   width: 80%;
-}
-
-.submit a {
-  font-size: 14px;
 }
 
 /* footer / Company Info Section */

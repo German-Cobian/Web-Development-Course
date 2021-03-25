@@ -17,6 +17,17 @@ body {
   src: url("assets/fonts/cocogoose_trial.otf");
 }
 
+.top-nav-items a {
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+}
+
+.bottom-nav-leftitems a {
+  text-decoration: none;
+  margin: 15px;
+}
+
 .cocogoose-text {
   font-family: cocogoose, sans-serif;
 }
@@ -93,12 +104,6 @@ body {
   margin-right: 5%;
 }
 
-.top-nav-items a {
-  color: white;
-  text-decoration: none;
-  margin: 15px;
-}
-
 .bottom-nav {
   border-bottom: 1px solid #d3d3d3;
 }
@@ -108,11 +113,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   margin: 15px 5% 15px 5%;
-}
-
-.bottom-nav-leftitems a {
-  text-decoration: none;
-  margin: 15px;
 }
 
 .bottom-nav-leftitems button {
