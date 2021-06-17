@@ -28,7 +28,7 @@ To get a local copy up and running follow these simple example steps:
 
 ## Live Demo
 
-* [NewsWeek Clone](https://german-cobian.github.io/Web-Development-Course/)
+* [Web-Design-Course](https://german-cobian.github.io/Web-Development-Course/)
 
 
 ## Author
