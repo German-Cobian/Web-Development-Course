@@ -19,15 +19,11 @@ The website was implemented with HTML tags, CSS and its associated tools (such a
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple example steps:
 
-* Run the following commands on your terminal:
-
-      $ cd <folder>    
-      $ git clone git@github.com:German-Cobian/Web-Development-Course.git
+* Clone this repo on your local machine by running `git clone git@github.com:German-Cobian/Web-Development-Course.git`
    
-* Change directory into the the folder you just cloned:
-      $ cd Web-Development-Course
+* `cd` into the `Web-Development-Course` folder you just cloned
 
 
 ## Live Demo
@@ -40,7 +36,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **German Cobian**
 
 * GitHub: [@German-Cobian](https://github.com/German-Cobian)
-* Twitter: [@GermanCobian3](https://twitter.com/GermanCobian3)
+* Twitter: [@GermanCobian1](https://twitter.com/GermanCobian1)
 * LinkedIn: [@german-cobian](https://www.linkedin.com/in/german-cobian)
 
 
@@ -55,6 +51,8 @@ Give a ⭐️ if you like this project!
 
 
 ## Acknowledgments
+
+Guidelines for this project were supplied by Microverse.
 
 Design idea by Cindy Shin in Behance (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015). All Rights Reserved.
 
