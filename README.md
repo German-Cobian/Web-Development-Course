@@ -1,11 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-
 # Web-Development-Course
 
-> This project is my creation of a website to promote, inform and sell the tickets for a web development course. 
+A website to promote, inform and sell the tickets for a web development course. It consists of three pages: 
 
-![screenshot](https://user-images.githubusercontent.com/68709712/107109629-db12f300-67f6-11eb-9fdb-95afcd599bc2.png)
+* The home page, which supplies an overview of the course
+![Home page](/assets/images/Home-page.png?raw=true "Home page")
+
+* A page where info regarding the school that imparts the course is published
+![About page](/assets/images/About-page.png?raw=true "About page")
+
+* A page to purchase tickets for the event
+![Tickets page](/assets/images/Tickets-page.png?raw=true "Tickets page")
 
 The website was implemented with HTML tags, CSS and its associated tools (such as flex-box, floats and grid), as well as the Bootstrap framework, to properly position and style the diferent elements and sections of the page. It was implemented to be responsive for mobile, tablet and desktop view.
 
@@ -22,8 +28,8 @@ The website was implemented with HTML tags, CSS and its associated tools (such a
 To get a local copy up and running follow these simple example steps:
 
 * Clone this repo on your local machine by running `git clone git@github.com:German-Cobian/Web-Development-Course.git`
-   
 * `cd` into the `Web-Development-Course` folder you just cloned
+* Using your web browser's navigation bar, go to the project's directory and then select the file index.html to see the survey form displayed
 
 
 ## Live Demo
@@ -52,13 +58,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Guidelines for this project were supplied by Microverse.
+Guidelines for this project were supplied by [Microverse](https://github.com/microverseinc/curriculum-html-css/blob/main/capstone/html_capstone.md).
 
-Design idea by Cindy Shin in Behance (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015). All Rights Reserved.
+Design idea by [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015). All Rights Reserved.
 
 
 ## 📝 License
 
-This project is [MIT](https://github.com/German-Cobian/Web-Development-Course/blob/working-feature/LICENSE) licensed.
-
-Creative Commons License https://creativecommons.org/licenses/by-nc/4.0/legalcode
+This project is [MIT](https://github.com/German-Cobian/Web-Development-Course/blob/main/LICENSE) and [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/legalcode) licensed.
